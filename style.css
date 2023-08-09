@@ -221,7 +221,8 @@ body{
     
     .maindisplay img{
        width: 100%;
-       position: relative;
+       height: 100%;
+       object-fit: cover;
        margin-top: -25px;
     }
     
@@ -239,13 +240,13 @@ body{
         font-family: sans-serif;
         font-weight: lighter;
         margin-top: -6em;
-        width: 300px;
+        width: 275px;
         padding: 36px;
         line-height: 25px;
     }
     .imgtext{
         background-color: rgba(237, 80, 109, 0.543);
-        width: 340px;
+        width: 310px;
         margin-left: 50px;
         margin-top: -45em;
         position: relative;    
